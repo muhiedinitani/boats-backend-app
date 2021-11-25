@@ -1,0 +1,15 @@
+### boats index
+GET http://localhost:3000/boats
+
+### boat create
+POST http://localhost:3000/boats
+Content-Type: application/json
+
+{
+  "brand": "something",
+  "length": "something else",
+  "price": 1234
+}
+
+### boat show
+GET http://localhost:3000/boats/2
