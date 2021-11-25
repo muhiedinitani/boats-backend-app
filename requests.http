@@ -6,9 +6,9 @@ POST http://localhost:3000/boats
 Content-Type: application/json
 
 {
-  "brand": "something",
-  "length": "something else",
-  "price": 1234
+  "brand": "Seadoo",
+  "length": "12 ft",
+  "price": 9000
 }
 
 ### boat show
